@@ -1,0 +1,56 @@
+/* CSS Document */
+header {
+	text-align: center;
+}
+body {
+	background-color: lightgoldenrodyellow;
+	font-family: sans-serif;
+}
+#disclaimer {
+	background-color: #FFFFCC;
+	border: #F1E3E3 2px solid;
+	margin-left: 1.2em;
+	margin-right: 5em;
+}
+#disclaimer h2 {
+	font-size: 1.5em;
+	padding-left: 0.5em;
+	padding-right: 0.3em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-top: auto;
+	background-color: #97bfff;
+}
+#disclaimer p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	}
+nav{
+	text-align: center;
+	border-style: solid;
+	background-color: #97bfff;
+	font-size: 17px;
+}
+p {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+a:hover{color:black}
+a:active{color: black}
+a:visited{color: darkgoldenrod}
+.notebox {
+	background-color: #FFFFCC;
+	border: #F1E3E3 2px solid;
+}
+.notebox h2 {
+	font-size: 1.5em;
+	padding-left: 0.5em;
+	padding-right: 0.3em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-top: auto;
+	background-color: #97bfff;
+}
+.notebox p {
+	padding-left: 0.5em;
+}
