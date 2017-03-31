@@ -1,10 +1,24 @@
 /* CSS Document */
-header {
+table.standings-table {
+	font-size: 12px;
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
+}
+.standings-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #CCC;
+}
+.standings-table th {
+	background-color: #104E8B;
+	color: #FFF;
+	font-weight: bold;
 }
 body {
 	background-color: lightgoldenrodyellow;
 	font-family: sans-serif;
+	margin: 0;
 }
 #disclaimer {
 	background-color: #FFFFCC;
@@ -19,6 +33,7 @@ body {
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
 	margin-top: auto;
+	margin-left:0;
 	background-color: #97bfff;
 }
 #disclaimer p {
@@ -31,8 +46,9 @@ nav{
 	background-color: #97bfff;
 	font-size: 17px;
 }
-p {
-	margin-top: 15px;
+h1, h2, p {
+	margin-left: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 a:hover{color:black}
