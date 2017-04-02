@@ -16,11 +16,36 @@
 </nav>
 <h1>Sign Up Now!</h1>
 <p>All you need to do to sign up is fill out the form below, and then tick the box after reading our playing guidelines.</p>
-<p>Contact person name:</p>
-<p>Contact phone number:</p>
-<p>Contact email address:</p>
-<p>Competition day: Monday | Saturday</p>
-<p>Competition time: Afternoon | Evening</p>
+<form>
+	<p>
+<label>Contact person name:</label>
+<input type = "name"/>
+</p>
+<p>
+<label>Contact phone number:</label>
+<input type = "phone number"/>
+</p>
+<p>
+	<label>Contact email address:</label>
+	<input type = "email address" />
+</p>
+<p>
+	<label>Competition day:</label> <br>
+	<input type="checkbox" name="day" value="Monday">Monday<br>
+	<input type="checkbox" name="day" value="Tuesday">Tuesday<br>
+	<input type="checkbox" name="day" value="Wednesday">Wednesday<br>
+	<input type="checkbox" name="day" value="Thursday">Thursday<br>
+	<input type="checkbox" name="day" value="Friday">Friday<br>
+	<input type="checkbox" name="day" value="Saturday">Saturday
+</p>
+<p>
+	<label>Competition time:</label> <br>
+	<input type="checkbox" name="afternoon" value="Afternoon">Afternoon<br>
+	<input type="checkbox" name="evening" value="Evening">Evening
+</p>
+	<p>I have read the Playing Guidelines and agree to the terms of playing<input type="checkbox"> </p>
+<input type="submit" value="Submit">
+</form>
 <footer id="disclaimer">
 	<h2>Playing Guidelines</h2>
 	<p>Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin. Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours beforehand to get a full refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.</p>
