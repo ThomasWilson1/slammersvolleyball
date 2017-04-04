@@ -2,7 +2,7 @@
 table.standings-table {
 	font-size: 12px;
 	border: 1px solid #CCC;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif, Verdana;
 	text-align: center;
 	margin-left: 20px;
 }
@@ -14,6 +14,13 @@ table.standings-table {
 .standings-table th {
 	background-color: #104E8B;
 	color: #FFF;
+	font-weight: bold;
+}
+input[type="button"] {
+	width: 150px;
+	height: 30px;
+	color: yellow;
+	background-color: deepskyblue;
 	font-weight: bold;
 }
 body {
